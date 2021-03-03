@@ -3,6 +3,11 @@
   margin: 0;
   padding: 0;
 }
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   width: 100%;
 }
@@ -18,18 +23,16 @@ a:hover {
   text-align: center;
 }
 
-header {
-  position: sticky;
-  top: 0;
-  background-color: white;
-}
 .navbar {
-  justify-content: center;
   padding: 15px 0;
 }
-
-.nav-item {
-  margin: 0 2.5rem;
+.navbar-toggler:focus,
+.navbar-toggler {
+  border: none;
+  outline: none;
+}
+.navbar ul {
+  width: 40%;
 }
 .nav-link {
   cursor: pointer;
@@ -60,7 +63,7 @@ h1 {
 }
 
 .proyects {
-  padding-top: 50px;
+  padding-top: 4.5rem;
 }
 .proyectBody {
   text-align: start;
@@ -81,7 +84,7 @@ iframe {
 }
 
 #educationDiv {
-  width: 55%;
+  width: 60%;
   margin: auto;
 }
 .education {
@@ -92,7 +95,7 @@ iframe {
 .courses,
 .titles {
   padding: 10px 0;
-  width: 24vw;
+  width: 26vw;
 }
 
 .item {
@@ -117,7 +120,7 @@ iframe {
 }
 
 .contact {
-  background-color: lightgreen;
+  height: 20vh;
 }
 
 .fullWidth {
@@ -125,4 +128,17 @@ iframe {
   height: 35rem;
   display: flex;
   color: white;
+}
+
+footer {
+  height: 10vh;
+  background-color: rgb(165, 53, 53);
+  margin-top: 75vh;
+}
+
+.fa-youtube {
+  color: red;
+}
+
+.fa-book {
 }
