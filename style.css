@@ -38,8 +38,9 @@ header {
 .aboutMe {
   text-align: center;
   height: 30rem;
-  background-color: rgb(255, 137, 137);
+  background-color: rgb(165, 53, 53);
   display: flex;
+  color: white;
 }
 .content {
   width: 700px;
@@ -73,4 +74,55 @@ iframe {
   align-self: center;
   width: 80vw;
   height: 80vh;
+}
+
+.proyects .iconLinks {
+  margin: 2rem auto;
+}
+
+#educationDiv {
+  width: 55%;
+  margin: auto;
+}
+.education {
+  display: flex;
+  justify-content: space-between;
+}
+
+.courses,
+.titles {
+  padding: 10px 0;
+  width: 24vw;
+}
+
+.item {
+  justify-content: space-between;
+  width: 100%;
+  margin: 20px auto 0 auto;
+  display: flex;
+}
+.item > h6 {
+  width: 30%;
+}
+.item div {
+  width: 70%;
+}
+.titles > h5,
+.courses > h5 {
+  font-weight: 700;
+}
+
+.lightgray {
+  color: rgb(255, 168, 168);
+}
+
+.contact {
+  background-color: lightgreen;
+}
+
+.fullWidth {
+  background-color: rgb(165, 53, 53);
+  height: 35rem;
+  display: flex;
+  color: white;
 }

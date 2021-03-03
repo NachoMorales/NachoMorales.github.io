@@ -9,7 +9,7 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
-    <script src="script.js"></script>
+    
     <link rel="icon" href="favicon.ico" />
     <title>Ignacio Morales</title>
     
@@ -50,19 +50,43 @@
     <div class="center proyects">
         <h3>Proyectos Personales</h3>
         <br>
-        <h5>- <a href="https://github.com/NachoMorales/twitter_v2" target="_blank">Twitter v2</a> (Ene-Feb 2021)</h5>
+        <h5><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">Twitter v2</a> (Ene-Feb 2021)</h5>
         <h6>Clon de Twitter con React y Firebase</h6>
         <br>
-        <p>body</p>
+        <div class="proyectBody">
+            <p>body</p>
 
+            <p>Que se puede hacer: </p>
+            <ul>
+                <li>- Crear usuarios/logearse</li>
+                <li>- Cambiar email o contraseña</li>
+                <li>- Editar tu perfil</li>
+                <li>- Seguir a otros usuarios</li>
+                <li>- Tweetear, retweetear, responder y likear</li>
+                <li>- Ver perfiles</li>
+                <li>- Conectar con otras personas (lista de usuarios a los que no sigues)</li>
+                <li>- Borrar tus tweets</li>
+                <li>- Ver detalles de un tweet (respuestas, retweets, likes)</li>
+            </ul>
+
+            <p>To do: </p>
+            <ul>
+                <li>- Tweetear contenido multimedia</li>
+                <li>- Ver lista de usuarios que dieron like/rt al tweet</li>
+            </ul>
+            <div class="iconLinks">
+                <!-- HACER VIDEO -->
+                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#videoModal" data-url="https://www.youtube.com/embed/faOkHDcikvw"><img src="files/youtube.png" alt="Youtube"> Video</button>
+                <a href="https://github.com/NachoMorales/twitter_v2" target="_blank" type="button" class="btn"><img src="files/git-repository-icon.png" width="24" alt="Git-Repository"> Repo</a>
+            </div>
+        </div>
+        <hr>
         <br>
-
-
-        <h5>- <a href="https://github.com/NachoMorales/CS50_FinalProject" target="_blank">PC Components</a> (Nov-Dic 2020)</h5>
+        <h5><a href="https://github.com/NachoMorales/CS50_FinalProject" target="_blank">PC Components</a> (Nov-Dic 2020)</h5>
         <h6>Sitio Web para comprar componentes de PC. Vanilla Javascript.</h6>
         <br>
         <div class="proyectBody">
-            <p>Mi proyecto final de CS50x, en esa época estaba buscando actualizar mi PC, y así me surgió la idea. Todavía no entendía mucho de desarrollo web (lo básico de Front-End), por lo que ahora con el tiempo me voy dando cuenta de cada vez más cosas que podría haber hecho mucho mejor. Pero a pesar de todo, me siento muy orgulloso de él ya que fue mi primer proyecto 100% personal.</p>
+            <p>Mi proyecto final de CS50x. En esa época estaba buscando actualizar mi PC, y así me surgió la idea. Todavía no entendía mucho de desarrollo web (lo básico de Front-End), por lo que ahora con el tiempo me voy dando cuenta de cada vez más cosas que podría haber hecho mucho mejor. Pero a pesar de todo, me siento muy orgulloso de él ya que fue mi primer proyecto 100% personal.</p>
             <p>Que se puede hacer: </p>
             <ul>
                 <li>- Ver el catálogo completo de productos</li>
@@ -76,30 +100,84 @@
                 <button type="button" class="btn btn-light" data-toggle="modal" data-target="#videoModal" data-url="https://www.youtube.com/embed/faOkHDcikvw"><img src="files/youtube.png" alt="Youtube"> Video</button>
                 <a href="https://github.com/NachoMorales/CS50_FinalProject" target="_blank" type="button" class="btn"><img src="files/git-repository-icon.png" width="24" alt="Git-Repository"> Repo</a>
             </div>
-            
-
 
             <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
-                  <div class="modal-content">
-                    <iframe src="" allowfullscreen></iframe>
-                  </div>
+                    <div class="modal-content">
+                        <iframe src="" allowfullscreen></iframe>
+                    </div>
                 </div>
-              </div>
+            </div>
         </div>
     </div>
+    <div class="fullWidth">
+        <div class="center" id="educationDiv">
+            <h3>Capacitación</h3>
+            <br>
+            <div class="education">
+                <div class="titles">
+                    <h5>Educación</h5>
+                    <div class="item">
+                        <h6 class="lightgray">2021 - En curso</h6>
+                        <div>
+                            <h6>Tecnicatura Universitaria en Programación</h6>
+                            <h6 class="lightgray">Universidad Tecnológica Nacional</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h6 class="lightgray">2019 - 2020</h6>
+                        <div>
+                            <h6>Agente de Propaganda Médica</h6>
+                            <h6 class="lightgray">Universidad Nacional de Córdoba</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h6 class="lightgray">2012 - 2018</h6>
+                        <div>
+                            <h6>Bachiller Humanista</h6>
+                            <h6 class="lightgray">Colegio Nacional de Monserrat</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="courses">
+                    <h5>Cursos</h5>
+                    <div class="item">
+                        <h6 class="lightgray">2021 - En curso</h6>
+                        <div>
+                            <h6>CS50 Web Programming</h6>
+                            <h6 class="lightgray">Harvard</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h6 class="lightgray">2020 - 2021</h6>
+                        <div>
+                            <h6>Practical Web Development</h6>
+                            <h6 class="lightgray">Udemy - Creative Online School</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h6 class="lightgray">2020 - 2020</h6>
+                        <div>
+                            <h6>CS50x</h6>
+                            <h6 class="lightgray">Harvard</h6>
+                        </div>
+                    </div>
+                    <div class="item">
+                        <h6 class="lightgray">2013 - 2019</h6>
+                        <div>
+                            <h6>English Instruction Program</h6>
+                            <h6 class="lightgray">I.I.C.A.N.A.</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- <div class="center contact">
+        <h3>Contacto</h3>
+        <br>
+    </div> -->
+    <!-- <div style="height: 30vh;"></div> -->
 </body>
-<script>
-    $("#videoModal").on('hidden.bs.modal', function (e) {
-        $("#videoModal iframe").attr("src", $("#videoModal iframe").attr("src"));
-    });
-
-    $('#videoModal').on('show.bs.modal', function (event) {
-    var button = $(event.relatedTarget)
-    var recipient = button.data('url')
-    var modal = $(this)
-    modal.find('iframe').attr('src', recipient)
-    })
-
-</script>   
+<script src="script.js"></script>
 </html>
