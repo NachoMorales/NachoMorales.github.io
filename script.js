@@ -13,3 +13,7 @@ $('#videoModal').on('show.bs.modal', function (event) {
 function handleScroll(targetDiv) {
     $('html,body').scrollTop($(targetDiv).offset().top);
 }
+
+$('.navbar-nav>li>a').on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});

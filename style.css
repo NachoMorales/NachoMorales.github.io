@@ -16,6 +16,10 @@ a {
 }
 a:hover {
   text-decoration: none;
+  color: inherit;
+}
+a:focus {
+  outline: none;
 }
 .center {
   width: 50%;
@@ -123,7 +127,22 @@ iframe {
 }
 
 .contact {
-  height: 20vh;
+  width: 60%;
+  padding: 4.5rem 0;
+}
+.contact .all {
+  display: flex;
+  justify-content: space-between;
+}
+.contact .sub {
+  width: 50%;
+}
+.contact a {
+  color: inherit;
+  font-size: 25px;
+}
+.contact i {
+  margin-right: 5px;
 }
 
 .fullWidth {
@@ -136,7 +155,6 @@ iframe {
 footer {
   height: 10vh;
   background-color: rgb(165, 53, 53);
-  margin-top: 75vh;
 }
 
 .fa-youtube {
