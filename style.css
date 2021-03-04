@@ -1,3 +1,8 @@
+:root {
+  --main-color: rgb(165, 53, 53);
+  --main-color-2: rgb(92, 53, 53);
+}
+
 * {
   font-family: "Rubik", sans-serif;
   margin: 0;
@@ -38,14 +43,30 @@ a:focus {
 .navbar ul {
   width: 40%;
 }
-.nav-link {
+.nav-item {
+  position: relative;
   cursor: pointer;
+}
+nav a::after {
+  content: "";
+  position: absolute;
+  height: 3px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: var(--main-color);
+  transition: transform ease-in-out 175ms;
+  transform: scaleX(0);
+}
+nav a:focus::after,
+nav a:hover::after {
+  transform: scaleX(1);
 }
 
 .aboutMe {
   text-align: center;
   height: 30rem;
-  background-color: rgb(165, 53, 53);
+  background-color: var(--main-color);
   display: flex;
   color: white;
 }
@@ -106,10 +127,24 @@ iframe {
 }
 
 .item {
+  position: relative;
   justify-content: space-between;
   width: 100%;
   margin: 20px auto 0 auto;
   display: flex;
+  padding: 10px 10px 0 10px;
+}
+.link-spanner:hover {
+  border: 1px solid white;
+}
+.link-spanner {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  border-radius: 9999px;
 }
 .item > h6 {
   width: 30%;
@@ -140,13 +175,19 @@ iframe {
 .contact a {
   color: inherit;
   font-size: 25px;
+  border-radius: 9999px;
+  padding: 13px 20px;
+}
+.contact a:hover {
+  background-color: var(--main-color);
+  color: white;
 }
 .contact i {
   margin-right: 5px;
 }
 
 .fullWidth {
-  background-color: rgb(165, 53, 53);
+  background-color: var(--main-color);
   height: 35rem;
   display: flex;
   color: white;
@@ -154,7 +195,7 @@ iframe {
 
 footer {
   height: 10vh;
-  background-color: rgb(165, 53, 53);
+  background-color: var(--main-color);
 }
 
 .fa-youtube {
