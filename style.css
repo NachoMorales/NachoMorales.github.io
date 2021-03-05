@@ -281,15 +281,11 @@ footer {
   }
 }
 @media (max-width: 715px) {
+  .list-group-item,
   .proyectBody .lead {
     font-size: calc(1rem + 0.2vw);
   }
-  .list-group-item {
-    font-size: calc(1rem + 0.2vw);
-  }
-  h2 {
-    font-size: calc(1.25rem + 1vw);
-  }
+  h2,
   h1 {
     font-size: calc(1.25rem + 1vw);
   }
