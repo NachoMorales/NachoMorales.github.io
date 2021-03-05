@@ -103,7 +103,7 @@ h1 {
   padding-top: 4.5rem;
 }
 .proyects h3 a {
-  font-size: 1.75rem;
+  font-size: calc(1.3rem + 0.6vw);
 }
 
 .proyectBody {
@@ -112,6 +112,10 @@ h1 {
 
 ul {
   list-style-type: none;
+}
+.list-group-item {
+  font-weight: 300;
+  font-size: 1.25rem;
 }
 .proyects .iconLinks {
   margin: 2rem auto;
@@ -225,6 +229,11 @@ footer {
   }
   .content {
     width: 95% !important;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .aboutMe {
+    height: auto;
   }
   .center {
     width: 70%;
@@ -266,6 +275,21 @@ footer {
 @media (max-width: 600px) {
   .center {
     width: 90%;
+  }
+}
+@media (max-width: 715px) {
+  .proyectBody .lead {
+    font-size: calc(1rem + 0.3vw);
+  }
+  .list-group-item {
+    font-size: calc(1rem + 0.3vw);
+    background-color: tomato;
+  }
+  h2 {
+    font-size: calc(1.4rem + 0.8vw);
+  }
+  h1 {
+    font-size: calc(1.6rem + 1vw);
   }
 }
 /* Extra small devices (phones, 600px and down) */
