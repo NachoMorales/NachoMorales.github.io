@@ -220,6 +220,24 @@ footer {
   .modal-dialog {
     width: 100% !important;
   }
+  .content {
+    width: 95% !important;
+  }
+  .center {
+    width: 70%;
+  }
+  .education {
+    justify-content: center;
+  }
+  .education .courses,
+  .education .titles {
+    width: 70%;
+  }
+  .fullWidth {
+    height: auto;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
 }
 @media (min-width: 1400px) {
   .list-group ul {
@@ -227,9 +245,28 @@ footer {
   }
 }
 
+@media (max-width: 1400px) {
+  .content {
+    width: 75%;
+  }
+  #educationDiv {
+    width: 90%;
+  }
+}
+
+@media (max-width: 768px) {
+  .education .courses,
+  .education .titles {
+    width: 100%;
+  }
+}
+@media (max-width: 600px) {
+  .center {
+    width: 90%;
+  }
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
-  ...;
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
