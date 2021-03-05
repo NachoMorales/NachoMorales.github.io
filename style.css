@@ -257,12 +257,15 @@ footer {
   }
 }
 
-@media (max-width: 1400px) {
+@media (max-width: 1435px) {
   .content {
     width: 75%;
   }
   #educationDiv {
     width: 90%;
+  }
+  .contact {
+    width: 100%;
   }
 }
 
@@ -283,7 +286,6 @@ footer {
   }
   .list-group-item {
     font-size: calc(1rem + 0.3vw);
-    background-color: tomato;
   }
   h2 {
     font-size: calc(1.4rem + 0.8vw);
