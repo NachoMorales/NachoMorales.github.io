@@ -183,9 +183,9 @@ ul {
   display: flex;
   justify-content: space-between;
 }
-.contact .sub {
+/* .contact .sub {
   width: 50%;
-}
+} */
 .contact a {
   color: inherit;
   font-size: 25px;
@@ -292,6 +292,15 @@ footer {
   }
   h1 {
     font-size: calc(1.6rem + 1vw);
+  }
+  .contact a {
+    font-size: calc(1rem + 0.3vw);
+  }
+  .education h5 {
+    font-size: 1rem;
+  }
+  .education h6 {
+    font-size: calc(0.8rem + 0.15vw);
   }
 }
 /* Extra small devices (phones, 600px and down) */
