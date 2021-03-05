@@ -13,7 +13,8 @@ $('#videoModal').on('show.bs.modal', function (event) {
 
 // Navbar scroll
 function handleScroll(targetDiv) {
-    $('html,body').scrollTop($(targetDiv).offset().top);
+    // $('html,body').scrollTop($(targetDiv).offset().top);
+    $(targetDiv)[0].scrollIntoView();
 }
 
 // Responsive navbar
