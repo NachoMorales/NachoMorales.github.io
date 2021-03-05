@@ -288,19 +288,22 @@ footer {
     font-size: calc(1rem + 0.2vw);
   }
   h2 {
-    font-size: calc(1.4rem + 0.8vw);
+    font-size: calc(1.25rem + 1vw);
   }
   h1 {
-    font-size: calc(1.5rem + 0.9vw);
+    font-size: calc(1.25rem + 1vw);
+  }
+  h4 {
+    font-size: calc(0.9rem + 1vw);
   }
   .contact a {
-    font-size: calc(1rem + 0.2vw);
+    font-size: calc(0.9rem + 0.2vw);
   }
   .education h5 {
     font-size: 1rem;
   }
   .education h6 {
-    font-size: calc(0.8rem + 0.15vw);
+    font-size: calc(0.7rem + 0.2vw);
   }
 }
 /* Extra small devices (phones, 600px and down) */
