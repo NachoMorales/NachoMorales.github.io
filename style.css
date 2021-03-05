@@ -114,13 +114,11 @@ ul {
   margin: 2rem auto;
   max-width: 700px;
   width: auto;
-  background-color: greenyellow;
 }
 .proyects .iconLinks .btn,
 .proyects .iconLinks a {
   font-size: 23px;
   width: 140px;
-  background-color: lightcoral;
 }
 
 #educationDiv {
