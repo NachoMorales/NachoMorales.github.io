@@ -1,7 +1,9 @@
+// Auto stop video
 $("#videoModal").on('hidden.bs.modal', function (e) {
     $("#videoModal iframe").attr("src", $("#videoModal iframe").attr("src"));
 });
 
+// Assign url to iframe
 $('#videoModal').on('show.bs.modal', function (event) {
     var button = $(event.relatedTarget)
     var recipient = button.data('url')
@@ -9,11 +11,12 @@ $('#videoModal').on('show.bs.modal', function (event) {
     modal.find('iframe').attr('src', recipient)
 })
 
-
+// Navbar scroll
 function handleScroll(targetDiv) {
     $('html,body').scrollTop($(targetDiv).offset().top);
 }
 
+// Responsive navbar
 $('.navbar-nav>li>a').on('click', function(){
     $('.navbar-collapse').collapse('hide');
 });
