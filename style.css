@@ -36,8 +36,11 @@ a:focus {
   padding: 15px 0;
 }
 .navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus,
 .navbar-toggler {
   border: none;
+  box-shadow: none;
   outline: none;
 }
 .navbar ul {
