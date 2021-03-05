@@ -4,10 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/0a526d817b.js" crossorigin="anonymous"></script>
     <link href="style.css" rel="stylesheet">
     
@@ -54,64 +53,75 @@
         </div>
     </div>
     <div class="center proyects">
-        <h3>Proyectos Personales</h3>
+        <h2>Proyectos Personales</h2>
         <br>
-        <h5><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">Twitter v2</a> (Ene-Feb 2021)</h5>
-        <h6>Clon de Twitter con React y Firebase</h6>
+        <h3><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">Twitter v2</a> (Ene - Ahora)</h3>
+        <h6 class="lead">Clon de Twitter con React y Firebase</h6>
         <br>
         <div class="proyectBody">
-            <p>body</p>
-
-            <p>Que se puede hacer: </p>
-            <ul>
-                <li>- Crear usuarios/logearse</li>
-                <li>- Cambiar email o contraseña</li>
-                <li>- Editar tu perfil</li>
-                <li>- Seguir a otros usuarios</li>
-                <li>- Tweetear, retweetear, responder y likear</li>
-                <li>- Ver perfiles</li>
-                <li>- Conectar con otras personas (lista de usuarios a los que no sigues)</li>
-                <li>- Borrar tus tweets</li>
-                <li>- Ver detalles de un tweet (respuestas, retweets, likes)</li>
-            </ul>
-
-            <p>To do: </p>
-            <ul>
-                <li>- Tweetear contenido multimedia</li>
-                <li>- Ver lista de usuarios que dieron like/rt al tweet</li>
-                <li>- Responsive design</li>
-            </ul>
+            <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam explicabo officiis vero! Neque eius, beatae nesciunt mollitia saepe architecto vitae ad, fugiat id maiores perspiciatis esse cupiditate aliquid nostrum ducimus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil optio voluptate qui quia illo corporis aliquam quaerat, amet dolorum, enim odit repellat quidem laborum aperiam ratione nulla dignissimos? Porro, obcaecati!</p>
+            <br>
+            <p class="lead">Que se puede hacer: </p>
+            <ul class="list-group list-group-horizontal-xxl">
+                <ul class="list-group">
+                    <li class="list-group-item border-0">- Crear usuarios/logearse</li>
+                    <li class="list-group-item border-0">- Cambiar email o contraseña</li>
+                    <li class="list-group-item border-0">- Editar tu perfil</li>
+                    <li class="list-group-item border-0">- Seguir a otros usuarios</li>
+                    <li class="list-group-item border-0">- Tweetear, Retweetear, Responder y Likear</li>
+                </ul>
+                <ul class="list-group">
+                    <li class="list-group-item border-0">- Ver perfiles</li>
+                    <li class="list-group-item border-0">- Conectar con otras personas (Lista de usuarios a los que no sigues)</li>
+                    <li class="list-group-item border-0">- Borrar tus Tweets</li>
+                    <li class="list-group-item border-0">- Ver detalles de un Tweet (Respuestas, Retweets, Likes)</li>
+                </ul>
+            </ul>    
+            <br>
+            <!-- To do:
+                - Tweetear contenido multimedia
+                - Ver lista de usuarios que dieron like/rt al tweet
+            -->
             <div class="iconLinks">
                 <!-- HACER VIDEO -->
-                <!-- <button type="button" class="btn btn-light" data-toggle="modal" data-target="#videoModal" data-url="https://www.youtube.com/embed/faOkHDcikvw"><i class="fab fa-youtube fa-lg"></i> Video</button> -->
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#videoModal" data-url="https://www.youtube.com/embed/faOkHDcikvw"><i class="fab fa-youtube fa-lg"></i> Video</button>
                 <a href="https://github.com/NachoMorales/twitter_v2" target="_blank" type="button" class="btn btn-light"><i class="fas fa-book fa-lg"></i> Repo</a>
             </div>
         </div>
         <hr>
         <br>
-        <h5><a href="https://github.com/NachoMorales/CS50_FinalProject" target="_blank">PC Components</a> (Nov-Dic 2020)</h5>
-        <h6>Sitio Web para comprar componentes de PC. Vanilla Javascript.</h6>
+        <h3><a href="https://github.com/NachoMorales/CS50_FinalProject" target="_blank">PC Components</a> (Nov-Dic 2020)</h3>
+        <h6 class="lead">Sitio Web para comprar componentes de PC. Vanilla Javascript.</h6>
         <br>
         <div class="proyectBody">
-            <p>Mi proyecto final de CS50x. En esa época estaba buscando actualizar mi PC, y así me surgió la idea. Todavía no entendía mucho de desarrollo web (lo básico de Front-End), por lo que ahora con el tiempo me voy dando cuenta de cada vez más cosas que podría haber hecho mucho mejor. Pero a pesar de todo, me siento muy orgulloso de él ya que fue mi primer proyecto 100% personal.</p>
-            <p>Que se puede hacer: </p>
-            <ul>
-                <li>- Ver el catálogo completo de productos</li>
-                <li>- Buscar productos específicos en la barra de búsqueda</li>
-                <li>- Filtrar productos por marcas/categoría</li>
-                <li>- Ordernar productos por nombre/precio</li>
-                <li>- Ver caracteristicas de un producto</li>
-                <li>- Agregar o quitar productos al carrito</li>
+            <p class="lead">Mi proyecto final de CS50x. En esa época estaba buscando actualizar mi PC, y así me surgió la idea. Todavía no entendía mucho de desarrollo web (lo básico de Front-End), por lo que ahora con el tiempo me voy dando cuenta de cada vez más cosas que podría haber hecho mucho mejor. Pero a pesar de todo, me siento muy orgulloso de él ya que fue mi primer proyecto 100% personal.</p>
+            <br>
+            <p class="lead">Que se puede hacer: </p>
+            <ul class="list-group list-group-horizontal-xxl">
+                <ul class="list-group">
+                    <li class="list-group-item border-0">- Ver el catálogo completo de productos</li>
+                    <li class="list-group-item border-0">- Buscar productos específicos en la barra de búsqueda</li>
+                    <li class="list-group-item border-0">- Filtrar productos por marcas/categoría</li>
+                </ul>
+                <ul class="list-group">
+                    <li class="list-group-item border-0">- Ordernar productos por nombre/precio</li>
+                    <li class="list-group-item border-0">- Ver caracteristicas de un producto</li>
+                    <li class="list-group-item border-0">- Agregar o quitar productos al carrito</li>
+                </ul>
             </ul>
             <div class="iconLinks">
-                <button type="button" class="btn btn-light" data-toggle="modal" data-target="#videoModal" data-url="https://www.youtube.com/embed/faOkHDcikvw"><i class="fab fa-youtube fa-lg"></i> Video</button>
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#videoModal" data-url="https://www.youtube.com/embed/faOkHDcikvw"><i class="fab fa-youtube fa-lg"></i> Video</button>
                 <a href="https://github.com/NachoMorales/CS50_FinalProject" target="_blank" type="button" class="btn btn-light"><i class="fas fa-book fa-lg"></i> Repo</a>
             </div>
 
             <div class="modal fade" id="videoModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-dialog modal-dialog-centered mw-100 w-75" role="document">
                     <div class="modal-content">
-                        <iframe src="" allowfullscreen></iframe>
+                        <div class="modal-body mb-0 p-0">
+                            <div class="ratio ratio-16x9">
+                                <iframe src="" allowfullscreen></iframe>
+                            </div>
+                          </div>
                     </div>
                 </div>
             </div>
@@ -120,19 +130,19 @@
     <div id="fullWidthEducation" style="padding-top: 5rem;">
         <div class="fullWidth">
             <div class="center" id="educationDiv">
-                <h3>Capacitación</h3>
+                <h2>Capacitación</h2>
                 <br>
                 <div class="education">
-                    <div class="titles">
+                    <div class="titles me-2">
                         <h5>Educación</h5>
-                        <div class="item">
+                        <div class="item border-0">
                             <h6 class="lightgray">2021 - En curso</h6>
                             <div>
                                 <h6>Tecnicatura Universitaria en Programación</h6>
                                 <h6 class="lightgray">Universidad Tecnológica Nacional</h6>
                             </div>
                         </div>
-                        <div class="item">
+                        <div class="item border-0">
                             <h6 class="lightgray">2019 - 2020</h6>
                             <div>
                                 <h6>Agente de Propaganda Médica</h6>
@@ -142,17 +152,16 @@
                         <div class="item">
                             <h6 class="lightgray">2012 - 2018</h6>
                             <div>
-                                <a href="./files/CNM.jpg" target="_blank">
+                                <a class="stretched-link" href="./files/CNM.jpg" target="_blank">
                                     <h6>Bachiller Humanista</h6>
                                     <h6 class="lightgray">Colegio Nacional de Monserrat</h6>
-                                    <span class="link-spanner"></span>
                                 </a>
                             </div>
                         </div>
                     </div>
-                    <div class="courses">
+                    <div class="courses ms-2">
                         <h5>Cursos</h5>
-                        <div class="item">
+                        <div class="item border-0">
                             <h6 class="lightgray">2021 - En curso</h6>
                             <div>
                                 <h6>CS50 Web Programming</h6>
@@ -162,30 +171,27 @@
                         <div class="item">
                             <h6 class="lightgray">2020 - 2021</h6>
                             <div>
-                                <a href="https://www.udemy.com/certificate/UC-24a890ac-9326-4546-8b70-86ac5058ec84/" target="_blank">
+                                <a href="https://www.udemy.com/certificate/UC-24a890ac-9326-4546-8b70-86ac5058ec84/" class="stretched-link" target="_blank">
                                     <h6>Practical Web Development</h6>
                                     <h6 class="lightgray">Udemy - Creative Online School</h6>
-                                    <span class="link-spanner"></span>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <h6 class="lightgray">2020 - 2020</h6>
                             <div>
-                                <a href="https://cs50.harvard.edu/certificates/70caf3aa-0c23-4794-9bae-74fcc47cecb8" target="_blank">
+                                <a href="https://cs50.harvard.edu/certificates/70caf3aa-0c23-4794-9bae-74fcc47cecb8" target="_blank" class="stretched-link">
                                     <h6>CS50x</h6>
                                     <h6 class="lightgray">Harvard</h6>
-                                    <span class="link-spanner"></span>
                                 </a>
                             </div>
                         </div>
                         <div class="item">
                             <h6 class="lightgray">2013 - 2019</h6>
                             <div>
-                                <a href="./files/Iicana_1.jpg" target="_blank">
+                                <a href="./files/Iicana_1.jpg" target="_blank" class="stretched-link">
                                     <h6>English Instruction Program</h6>
                                     <h6 class="lightgray">I.I.C.A.N.A.</h6>
-                                    <span class="link-spanner"></span>
                                 </a>
                             </div>
                         </div>
@@ -195,7 +201,7 @@
         </div>
     </div>
     <div class="center contact">
-        <h3>Contacto</h3>
+        <h2>Contacto</h2>
         <br> <br>
         <div class="all">
             <div class="sub">
@@ -204,6 +210,11 @@
                 <a href="tel:+5493512020312"><i class="fas fa-mobile-alt fa-lg"></i> +54 9 351 202-0312</a>
                 <br><br>
                 <a href="https://goo.gl/maps/xAKfS4RJJ79qaVA29" target="_blank"><i class="fas fa-map-marker-alt fa-lg"></i> Córdoba, Córdoba, Argentina</a>
+                <!--Google map-->
+                <!-- <div id="map-container" class="z-depth-1-half map-container" style="height: 500px">
+                    <iframe src="https://maps.google.com/maps?q=manhatan&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0"
+                    style="border:0" allowfullscreen></iframe>
+                </div> -->
                 <br><br>
             </div>
             <div class="sub">

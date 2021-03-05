@@ -2,11 +2,10 @@
   --main-color: rgb(165, 53, 53);
   --main-color-2: rgb(92, 53, 53);
 }
-
 * {
-  font-family: "Rubik", sans-serif;
   margin: 0;
   padding: 0;
+  font-size: 18px;
 }
 
 html {
@@ -18,6 +17,7 @@ body {
 }
 a {
   color: inherit;
+  text-decoration: none;
 }
 a:hover {
   text-decoration: none;
@@ -27,7 +27,7 @@ a:focus {
   outline: none;
 }
 .center {
-  width: 50%;
+  width: 60%;
   margin: 0 auto;
   text-align: center;
 }
@@ -71,12 +71,18 @@ nav a:hover::after {
   color: white;
 }
 .content {
-  width: 700px;
+  width: 50%;
   margin: auto;
   text-align: center;
 }
 
-h3,
+h1 {
+  font-size: 3rem;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h2,
 h1 {
   font-weight: 700;
 }
@@ -93,6 +99,10 @@ h1 {
 .proyects {
   padding-top: 4.5rem;
 }
+.proyects h3 a {
+  font-size: 1.75rem;
+}
+
 .proyectBody {
   text-align: start;
 }
@@ -100,15 +110,17 @@ h1 {
 ul {
   list-style-type: none;
 }
-
-iframe {
-  align-self: center;
-  width: 80vw;
-  height: 80vh;
-}
-
 .proyects .iconLinks {
   margin: 2rem auto;
+  max-width: 700px;
+  width: auto;
+  background-color: greenyellow;
+}
+.proyects .iconLinks .btn,
+.proyects .iconLinks a {
+  font-size: 23px;
+  width: 140px;
+  background-color: lightcoral;
 }
 
 #educationDiv {
@@ -123,7 +135,11 @@ iframe {
 .courses,
 .titles {
   padding: 10px 0;
-  width: 26vw;
+  width: 50%;
+}
+
+.iconLinks .btn-light:hover {
+  background-color: rgb(233, 233, 233);
 }
 
 .item {
@@ -133,18 +149,11 @@ iframe {
   margin: 20px auto 0 auto;
   display: flex;
   padding: 10px 10px 0 10px;
-}
-.link-spanner:hover {
-  border: 1px solid white;
-}
-.link-spanner {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  top: 0;
-  left: 0;
-  z-index: 1;
   border-radius: 9999px;
+  border: 1px solid transparent;
+}
+.item:hover {
+  border: 1px solid white;
 }
 .item > h6 {
   width: 30%;
@@ -207,4 +216,40 @@ footer {
 
 .iconLinks .btn-light:hover .fa-book {
   color: black;
+}
+
+@media (max-width: 992px) {
+  .modal-dialog {
+    width: 100% !important;
+  }
+}
+@media (min-width: 1400px) {
+  .list-group ul {
+    width: 50% !important;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  ...;
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  ...;
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  ...;
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  ...;
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  ...;
 }
