@@ -282,19 +282,19 @@ footer {
 }
 @media (max-width: 715px) {
   .proyectBody .lead {
-    font-size: calc(1rem + 0.3vw);
+    font-size: calc(1rem + 0.2vw);
   }
   .list-group-item {
-    font-size: calc(1rem + 0.3vw);
+    font-size: calc(1rem + 0.2vw);
   }
   h2 {
     font-size: calc(1.4rem + 0.8vw);
   }
   h1 {
-    font-size: calc(1.6rem + 1vw);
+    font-size: calc(1.5rem + 0.9vw);
   }
   .contact a {
-    font-size: calc(1rem + 0.3vw);
+    font-size: calc(1rem + 0.2vw);
   }
   .education h5 {
     font-size: 1rem;
