@@ -26,6 +26,10 @@ $('.navbar-nav>li>a').on('click', function(){
 function changeTheme() {
     var style = document.querySelector(':root').style;
     var icon = document.getElementById("themeIcon")
+    var navbar = document.getElementById('navbar').classList;
+
+    navbar.toggle('navbar-dark')
+    navbar.toggle('navbar-light')
 
     if ( icon.classList.contains('fa-moon') ) {
         style.setProperty('--main-background-color', '#011c23');
