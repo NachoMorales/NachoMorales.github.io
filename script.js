@@ -39,7 +39,7 @@ function changeTheme() {
         style.setProperty('--main-color-2', '#2aa198');
         style.setProperty('--opacity', '1');
         style.setProperty('--main-color-3', 'rgb(29, 161, 242)');
-        icon.className = 'fas fa-sun fa-lg';
+        icon.className = 'fas fa-sun';
     } else {
         style.setProperty('--main-background-color', 'white');
         style.setProperty('--main-text-color', 'black');
@@ -48,6 +48,6 @@ function changeTheme() {
         style.setProperty('--main-color-2', 'rgb(255, 168, 168)');
         style.setProperty('--opacity', '0.55');
         style.setProperty('--main-color-3', '#f8f9fa');
-        icon.className = 'fas fa-moon fa-lg';
+        icon.className = 'fas fa-moon';
     }
 }
