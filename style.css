@@ -1,6 +1,11 @@
 :root {
   --main-color: rgb(165, 53, 53);
-  --main-color-2: rgb(92, 53, 53);
+  --main-color-2: rgb(255, 168, 168);
+  --main-background-color: white;
+  --main-text-color: black;
+  --main-nav-color: rgb(165, 53, 53);
+  --main-color-3: #f8f9fa;
+  --opacity: 0.55;
 }
 * {
   margin: 0;
@@ -13,8 +18,20 @@ html {
 }
 
 body {
+  background-color: var(--main-background-color);
+  color: var(--main-text-color);
   width: 100%;
 }
+
+#themeIcon {
+  position: absolute;
+  right: 0;
+  color: var(--main-text-color);
+  padding: 10px 8px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
 a {
   color: inherit;
   text-decoration: none;
@@ -34,6 +51,7 @@ a:focus {
 
 .navbar {
   padding: 15px 0;
+  background-color: var(--main-background-color);
 }
 .navbar-toggler:focus,
 .navbar-toggler:active,
@@ -50,6 +68,10 @@ a:focus {
   position: relative;
   cursor: pointer;
 }
+.nav-link {
+  color: var(--main-text-color) !important;
+  opacity: var(--opacity);
+}
 nav a::after {
   content: "";
   position: absolute;
@@ -57,7 +79,7 @@ nav a::after {
   right: 0;
   bottom: 0;
   left: 0;
-  background: var(--main-color);
+  background: var(--main-nav-color);
   transition: transform ease-in-out 175ms;
   transform: scaleX(0);
 }
@@ -113,9 +135,13 @@ h1 {
 ul {
   list-style-type: none;
 }
+/* .list-group {
+  background-color: var(--main-background-color) !important;
+} */
 .list-group-item {
   font-weight: 300;
   font-size: 1.25rem;
+  background-color: var(--main-background-color);
 }
 .proyects .iconLinks {
   margin: 2rem auto;
@@ -158,7 +184,7 @@ ul {
   border: 1px solid transparent;
 }
 .item:hover {
-  border: 1px solid white;
+  border: 1px solid var(--main-color-2);
 }
 .item > h6 {
   width: 30%;
@@ -172,7 +198,7 @@ ul {
 }
 
 .lightgray {
-  color: rgb(255, 168, 168);
+  color: var(--main-color-2);
 }
 
 .contact {
