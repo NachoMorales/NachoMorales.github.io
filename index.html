@@ -12,7 +12,6 @@
     
     <link rel="icon" href="favicon.ico" />
     <title>Ignacio Morales</title>
-    
 </head>
 <body>
     <header class="sticky-top bg-white">
@@ -26,6 +25,9 @@
                     <li class="nav-item" id="about" onclick="handleScroll('body')">
                         <a class="nav-link px-0" >Sobre mi</a>
                     </li>
+                    <!-- <li class="nav-item"> ToDo: agregar experiencia laboral
+                        <a class="nav-link px-0" id="projects" onclick="handleScroll('.proyects')">Experiencia Laboral</a>
+                    </li> -->
                     <li class="nav-item">
                         <a class="nav-link px-0" id="projects" onclick="handleScroll('.proyects')">Proyectos</a>
                     </li>
@@ -43,8 +45,10 @@
         <div class="content">
             <h1>Hola! Soy Ignacio Morales</h1>
             <br>
-            <h4>Soy un estudiante de programación en la UTN (Córdoba, Argentina), apasionado por el desarrollo web.</h4>
-            <h4>Mi principal objetivo es aprender nuevas tecnologías, para así algún día poder convertirme en un desarrollador Full-Stack.</h4>
+            <h4>Soy un desarrollador MEAN Stack Junior.</h4>
+            <!-- con un año de experiencia. -->
+            <!-- <h4>Me gusta capacitarme constantemente y realizar proyectos personales.</h4> -->
+            <h4>Me gusta capacitarme constantemente y realizar proyectos personales. Mi principal objetivo es reforzar y seguir aprendiendo nuevas habilidades como desarrollador Back-End.</h4>
             <div class="iconLinks">
                 <a href="files/CV Ignacio Morales.pdf" download><i class="fas fa-file-pdf fa-2x"></i></a>
                 <a href="https://github.com/NachoMorales" target="_blank"><i class="fab fa-github fa-2x"></i></a>
@@ -56,19 +60,68 @@
     <div class="center proyects">
         <h2>Proyectos Personales</h2>
         <br>
+        <h3><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">G&M Deco</a> (Jul - Ago 2021)</h3>
+        <h6 class="lead">Administrador web para negocio de decoraciones de interior. MongoDB, Express, Angular y NodeJS</h6>
+        <br>
+        <div class="proyectBody">
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, reprehenderit! Sit iure assumenda vitae? Beatae saepe, recusandae perspiciatis ab magni voluptatum. Iure itaque, temporibus odio laboriosam molestiae eum non minus doloremque minima ipsum sunt fugit optio eveniet molestias ullam incidunt labore officia officiis consequatur, deserunt necessitatibus? Aliquam nam illum sint.
+            </p>
+            <br>
+            <p class="lead">Que se puede hacer: </p>
+            <ul class="list-group">
+                <li class="list-group-item border-0">- Loguearse</li>
+                <li class="list-group-item border-0">- Crear y editar categorias, subcategorias, productos y proveedores</li>
+                <li class="list-group-item border-0">- Controlar stock disponible</li>
+                <li class="list-group-item border-0">- Controlar la cantidad de ventas</li>
+                <li class="list-group-item border-0">- Ver información sobre cuáles son los productos más vendidos, así como los proveedores y las subcategorias que más venden</li>
+            </ul>
+            <br>
+            <div class="iconLinks">
+                <!-- ToDo: agregar repo, video de youtube y link al deploy -->
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#videoModal" data-url="https://www.youtube.com/embed/nkg3CwYrNK0"><i class="fab fa-youtube fa-lg"></i> Video</button>
+                <a href="https://github.com/NachoMorales/twitter_v2" target="_blank" type="button" class="btn btn-light"><i class="fas fa-book fa-lg"></i> Repo</a>
+            </div>
+        </div>
+        <hr>
+        <br>
+        <h3><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">Tutti-Frutti</a> (Abr - May 2021)</h3>
+        <h6 class="lead">Aplicación web para jugar al tutti-frutti online multijugador. MongoDB, Express, Angular, NodeJS y SocketIO</h6>
+        <br>
+        <div class="proyectBody">
+            <p class="lead">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam quibusdam, officia, consequatur quia tempore dolor voluptatum laborum in et totam odit expedita corporis incidunt delectus blanditiis nemo laboriosam aliquid sapiente deserunt? Facere, maiores cupiditate! Optio eius ut voluptates, quis animi sint repellendus maiores laboriosam vel ab nam excepturi! Natus, hic?
+            </p>
+            <br>
+            <p class="lead">Que se puede hacer: </p>
+            <ul class="list-group">
+                <li class="list-group-item border-0">- Loguearse</li>
+                <li class="list-group-item border-0">- Crear nueva partida eligiendo las categorias y enviando una solicitud a los oponentes para jugar</li>
+                <li class="list-group-item border-0">- Un jugador comeinza el contador y otro lo detiene para seleccionar la letra con la que se va a jugar la ronda</li>
+                <li class="list-group-item border-0">- Se puede finalizar el juego en cualquier momento entre las rondas si la mayoría de los jugadores están de acuerdo</li>
+                <li class="list-group-item border-0">- Las letras no se pueden repetir. El juego finaliza automáticamente al acabarse todas las letras</li>
+                <li class="list-group-item border-0">- Editar el puntaje de una palabra, enviando una solicitud a todos los jugadores menos al jugador afectado</li>
+            </ul>    
+            <br>
+            <div class="iconLinks">
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#videoModal" data-url="https://www.youtube.com/embed/nkg3CwYrNK0"><i class="fab fa-youtube fa-lg"></i> Video</button>
+                <a href="https://github.com/NachoMorales/twitter_v2" target="_blank" type="button" class="btn btn-light"><i class="fas fa-book fa-lg"></i> Repo</a>
+            </div>
+        </div>
+        <hr>
+        <br>
         <h3><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">Twitter v2</a> (Ene - Feb 2021)</h3>
         <h6 class="lead">Clon de Twitter con React y Firebase</h6>
         <br>
         <div class="proyectBody">
             <p class="lead">
-                <!-- Estaba con muchas ganas de aprender un Framework de Javascript para empezar este proyecto, y al haber tanto material sobre React en Youtube, decidí hacerlo con este. Comenzó siendo un simple blog -->
                 Estaba con muchas ganas de aprender un Framework de Javascript, y al haber tanto material sobre React en Youtube, me decidí por este. El proyecto comenzó siendo un simple blog y después quise llevarlo a otro nivel agregándole un método de autenticación. Ahí es cuando entró Firebase. No tenía ni idea de lo que era ni de cómo se utilizaba así que me dediqué a aprenderlo. Con el tiempo descubrí otras funciones que ofrecía esta plataforma, como Cloud Firestore, y el Storage. Y así es como terminé migrando toda la aplicación a Firebase.
             </p>
             <br>
             <p class="lead">Que se puede hacer: </p>
             <ul class="list-group list-group-horizontal-xxl">
                 <ul class="list-group">
-                    <li class="list-group-item border-0">- Crear usuarios/logearse</li>
+                    <li class="list-group-item border-0">- Crear usuarios/loguearse</li>
                     <li class="list-group-item border-0">- Cambiar email o contraseña</li>
                     <li class="list-group-item border-0">- Editar tu perfil</li>
                     <li class="list-group-item border-0">- Seguir a otros usuarios</li>
@@ -134,18 +187,28 @@
                 <div class="education row">
                     <div class="titles me-2 mb-3 mb-lg-0 col-lg">
                         <h5>Educación</h5>
-                        <div class="item border-0">
+                        <!-- <div class="item border-0">
                             <h6 class="lightgray">2021 - En curso</h6>
                             <div>
                                 <h6>Tecnicatura Universitaria en Programación</h6>
                                 <h6 class="lightgray">Universidad Tecnológica Nacional</h6>
                             </div>
-                        </div>
+                        </div> -->
                         <div class="item border-0">
                             <h6 class="lightgray">2019 - 2020</h6>
                             <div>
+                                <!-- ToDo: Agregar certificado -->
                                 <h6>Agente de Propaganda Médica</h6>
                                 <h6 class="lightgray">Universidad Nacional de Córdoba</h6>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <h6 class="lightgray">2013 - 2019</h6>
+                            <div>
+                                <a href="./files/IICANA.jpg" target="_blank" class="stretched-link">
+                                    <h6>English Instruction Program</h6>
+                                    <h6 class="lightgray">I.I.C.A.N.A.</h6>
+                                </a>
                             </div>
                         </div>
                         <div class="item">
@@ -160,11 +223,20 @@
                     </div>
                     <div class="courses ms-2 mt-3 mt-lg-0 col-lg">
                         <h5>Cursos</h5>
-                        <div class="item border-0">
+                        <!-- <div class="item border-0">
                             <h6 class="lightgray">2021 - En curso</h6>
                             <div>
                                 <h6>CS50 Web Programming</h6>
                                 <h6 class="lightgray">Harvard</h6>
+                            </div>
+                        </div> -->
+                        <div class="item">
+                            <h6 class="lightgray">2021 - 2021</h6>
+                            <div>
+                                <a href="https://www.udemy.com/certificate/UC-b3aaf226-6ff5-4bc5-8c67-baf1642cb3ae/" class="stretched-link" target="_blank">
+                                    <h6>Universidad Javascript</h6>
+                                    <h6 class="lightgray">Udemy</h6>
+                                </a>
                             </div>
                         </div>
                         <div class="item">
@@ -172,7 +244,7 @@
                             <div>
                                 <a href="https://www.udemy.com/certificate/UC-24a890ac-9326-4546-8b70-86ac5058ec84/" class="stretched-link" target="_blank">
                                     <h6>Practical Web Development</h6>
-                                    <h6 class="lightgray">Udemy - Creative Online School</h6>
+                                    <h6 class="lightgray">Udemy</h6>
                                 </a>
                             </div>
                         </div>
@@ -182,15 +254,6 @@
                                 <a href="https://cs50.harvard.edu/certificates/70caf3aa-0c23-4794-9bae-74fcc47cecb8" target="_blank" class="stretched-link">
                                     <h6>CS50x</h6>
                                     <h6 class="lightgray">Harvard</h6>
-                                </a>
-                            </div>
-                        </div>
-                        <div class="item">
-                            <h6 class="lightgray">2013 - 2019</h6>
-                            <div>
-                                <a href="./files/IICANA.jpg" target="_blank" class="stretched-link">
-                                    <h6>English Instruction Program</h6>
-                                    <h6 class="lightgray">I.I.C.A.N.A.</h6>
                                 </a>
                             </div>
                         </div>

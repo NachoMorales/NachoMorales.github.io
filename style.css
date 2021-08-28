@@ -75,7 +75,7 @@ a:focus {
   opacity: var(--opacity);
 }
 nav a::after {
-  content: "";
+  content: '';
   position: absolute;
   height: 3px;
   right: 0;
@@ -208,6 +208,7 @@ ul {
   padding: 4.5rem 0;
 }
 .contact .all {
+  width: 100%;
   display: flex;
   justify-content: space-between;
 }
