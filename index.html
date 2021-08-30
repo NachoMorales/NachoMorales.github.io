@@ -25,11 +25,11 @@
                     <li class="nav-item" id="about" onclick="handleScroll('body')">
                         <a class="nav-link px-0" >Sobre mi</a>
                     </li>
-                    <!-- <li class="nav-item"> ToDo: agregar experiencia laboral
-                        <a class="nav-link px-0" id="projects" onclick="handleScroll('.proyects')">Experiencia Laboral</a>
-                    </li> -->
                     <li class="nav-item">
-                        <a class="nav-link px-0" id="projects" onclick="handleScroll('.proyects')">Proyectos</a>
+                        <a class="nav-link px-0" onclick="handleScroll('#workExperience')">Experiencia Laboral</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link px-0" id="projects" onclick="handleScroll('#personalProjects')">Proyectos</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link px-0" id="capacitacion" onclick="handleScroll('#fullWidthEducation')">Capacitación</a>
@@ -57,11 +57,27 @@
             </div>
         </div>
     </div>
-    <div class="center proyects">
+    <div class="center proyects" id="workExperience">
+        <h2>Experiencia Laboral</h2>
+        <br>
+        <h3>Diproach (Mar 2021 - Hoy)</h3>
+        <h6 class="lead">Integración de aplicaciones móviles con Ionic y Angular. Desarrollo de back-end con Node, Express y MongoDB.</h6>
+        <br>
+        <div class="proyectBody">
+            <p class="lead">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, reprehenderit! Sit iure assumenda vitae? Beatae saepe, recusandae perspiciatis ab magni voluptatum. Iure itaque, temporibus odio laboriosam molestiae eum non minus doloremque minima ipsum sunt fugit optio eveniet molestias ullam incidunt labore officia officiis consequatur, deserunt necessitatibus? Aliquam nam illum sint.
+            </p>
+            <br>
+        </div>
+        <hr>
+    </div>
+    <div class="center proyects" id="personalProjects">
         <h2>Proyectos Personales</h2>
         <br>
-        <h3><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">G&M Deco</a> (Jul - Ago 2021)</h3>
-        <h6 class="lead">Administrador web para negocio de decoraciones de interior. MongoDB, Express, Angular y NodeJS</h6>
+        <!-- ToDo: agregar start-working -->
+        <!-- ToDo: link al repo en titulos -->
+        <h3><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">G&M Deco</a> (Ago 2021)</h3>
+        <h6 class="lead">Administrador web para negocio de decoraciones de interior. MongoDB, Express, Angular y Node</h6>
         <br>
         <div class="proyectBody">
             <p class="lead">
@@ -85,8 +101,8 @@
         </div>
         <hr>
         <br>
-        <h3><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">Tutti-Frutti</a> (Abr - May 2021)</h3>
-        <h6 class="lead">Aplicación web para jugar al tutti-frutti online multijugador. MongoDB, Express, Angular, NodeJS y SocketIO</h6>
+        <h3><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">Tutti-Frutti</a> (May - Jun 2021)</h3>
+        <h6 class="lead">Aplicación web para jugar al tutti-frutti online multijugador. MongoDB, Express, Angular, Node y SocketIO</h6>
         <br>
         <div class="proyectBody">
             <p class="lead">
@@ -97,8 +113,8 @@
             <ul class="list-group">
                 <li class="list-group-item border-0">- Loguearse</li>
                 <li class="list-group-item border-0">- Crear nueva partida eligiendo las categorias y enviando una solicitud a los oponentes para jugar</li>
-                <li class="list-group-item border-0">- Un jugador comeinza el contador y otro lo detiene para seleccionar la letra con la que se va a jugar la ronda</li>
-                <li class="list-group-item border-0">- Se puede finalizar el juego en cualquier momento entre las rondas si la mayoría de los jugadores están de acuerdo</li>
+                <li class="list-group-item border-0">- Un jugador comienza el contador y otro lo detiene para seleccionar la letra con la que se va a jugar la ronda</li>
+                <li class="list-group-item border-0">- Se puede finalizar el juego en cualquier momento entre las rondas si la mayoría de los jugadores está de acuerdo</li>
                 <li class="list-group-item border-0">- Las letras no se pueden repetir. El juego finaliza automáticamente al acabarse todas las letras</li>
                 <li class="list-group-item border-0">- Editar el puntaje de una palabra, enviando una solicitud a todos los jugadores menos al jugador afectado</li>
             </ul>    
@@ -110,8 +126,37 @@
         </div>
         <hr>
         <br>
+        <h3><a href="https://github.com/NachoMorales/startworking" target="_blank">Start-Working</a> (Abr 2021)</h3>
+        <h6 class="lead">Comando de Windows para abrir proyectos. Batch</h6>
+        <br>
+        <div class="proyectBody">
+            <p class="lead">
+                Este es el proyecto más chico que hice hasta ahora y no está muy relacionado con el desarrollo web, por eso no estaba seguro si incluirlo o no... pero al ser el único que utlizo casi todos los días y al ahorrarme tanto tiempo no lo podía dejar de lado. Está enfocado en la estructura que tenían los proyectos en mi primer trabajo. Con sólo escribir 2 palabras ya tengo todo lo que necesito para comenzar a trabajar.
+            </p>
+            <br>
+            <p class="lead">Que se puede hacer: </p>
+            <ul class="list-group list-group-horizontal-xxl">
+                <ul class="list-group">
+                    <li class="list-group-item border-0">- Seleccionar un proyecto e iniciarlo</li>
+                    <li class="list-group-item border-0">- Abrir VSCode en las carpetas seleccionadas</li>
+                    <li class="list-group-item border-0">- Abrir Discord y Postman</li>
+                </ul>
+                <ul class="list-group">
+                    <li class="list-group-item border-0">- Abrir Git Bash</li>
+                    <li class="list-group-item border-0">- Git Pull</li>
+                </ul>
+            </ul>
+            <br>
+            <div class="iconLinks">
+                <!-- ToDo: agregar video de youtube -->
+                <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#videoModal" data-url="https://www.youtube.com/embed/nkg3CwYrNK0"><i class="fab fa-youtube fa-lg"></i> Video</button>
+                <a href="https://github.com/NachoMorales/startworking" target="_blank" type="button" class="btn btn-light"><i class="fas fa-book fa-lg"></i> Repo</a>
+            </div>
+        </div>
+        <hr>
+        <br>
         <h3><a href="https://github.com/NachoMorales/twitter_v2" target="_blank">Twitter v2</a> (Ene - Feb 2021)</h3>
-        <h6 class="lead">Clon de Twitter con React y Firebase</h6>
+        <h6 class="lead">Clon de Twitter. React y Firebase</h6>
         <br>
         <div class="proyectBody">
             <p class="lead">
@@ -133,7 +178,7 @@
                     <li class="list-group-item border-0">- Borrar tus Tweets</li>
                     <li class="list-group-item border-0">- Ver detalles de un Tweet (Respuestas, Retweets, Likes)</li>
                 </ul>
-            </ul>    
+            </ul>
             <br>
             <div class="iconLinks">
                 <button type="button" class="btn btn-light" data-bs-toggle="modal" data-bs-target="#videoModal" data-url="https://www.youtube.com/embed/nkg3CwYrNK0"><i class="fab fa-youtube fa-lg"></i> Video</button>
@@ -187,19 +232,13 @@
                 <div class="education row">
                     <div class="titles me-2 mb-3 mb-lg-0 col-lg">
                         <h5>Educación</h5>
-                        <!-- <div class="item border-0">
-                            <h6 class="lightgray">2021 - En curso</h6>
-                            <div>
-                                <h6>Tecnicatura Universitaria en Programación</h6>
-                                <h6 class="lightgray">Universidad Tecnológica Nacional</h6>
-                            </div>
-                        </div> -->
-                        <div class="item border-0">
+                        <div class="item">
                             <h6 class="lightgray">2019 - 2020</h6>
                             <div>
-                                <!-- ToDo: Agregar certificado -->
-                                <h6>Agente de Propaganda Médica</h6>
-                                <h6 class="lightgray">Universidad Nacional de Córdoba</h6>
+                                <a href="./files/Certificado-APM.pdf" target="_blank" class="stretched-link">
+                                    <h6>Agente de Propaganda Médica</h6>
+                                    <h6 class="lightgray">Universidad Nacional de Córdoba</h6>
+                                </a>
                             </div>
                         </div>
                         <div class="item">
@@ -286,4 +325,5 @@
     <footer></footer>
 </body>
 <script src="script.js"></script>
+<!-- ToDo: traducir la pagina // https://stackoverflow.com/a/43033380/14673170 -->
 </html>
